@@ -12,6 +12,7 @@
 		9DEB453E2402AE5300170788 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DEB453D2402AE5300170788 /* Assets.xcassets */; };
 		9DEB45412402AE5300170788 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DEB453F2402AE5300170788 /* Main.storyboard */; };
 		9DEB45442402AE5300170788 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DEB45432402AE5300170788 /* main.m */; };
+		9DEB454C2402AF3200170788 /* Tiny.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DEB454B2402AF3200170788 /* Tiny.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,8 @@
 		9DEB45422402AE5300170788 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9DEB45432402AE5300170788 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9DEB45452402AE5300170788 /* AnimationDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AnimationDemo.entitlements; sourceTree = "<group>"; };
+		9DEB454B2402AF3200170788 /* Tiny.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tiny.m; sourceTree = "<group>"; };
+		9DEB454D2402B1A500170788 /* Tiny.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tiny.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,8 @@
 				9DEB45382402AE5200170788 /* AppDelegate.m */,
 				9DEB453A2402AE5200170788 /* ViewController.h */,
 				9DEB453B2402AE5200170788 /* ViewController.m */,
+				9DEB454D2402B1A500170788 /* Tiny.h */,
+				9DEB454B2402AF3200170788 /* Tiny.m */,
 				9DEB453D2402AE5300170788 /* Assets.xcassets */,
 				9DEB453F2402AE5300170788 /* Main.storyboard */,
 				9DEB45422402AE5300170788 /* Info.plist */,
@@ -140,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DEB453C2402AE5200170788 /* ViewController.m in Sources */,
+				9DEB454C2402AF3200170788 /* Tiny.m in Sources */,
 				9DEB45442402AE5300170788 /* main.m in Sources */,
 				9DEB45392402AE5200170788 /* AppDelegate.m in Sources */,
 			);
@@ -283,6 +289,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_BUNDLE_IDENTIFIER = ch.rudifa.AnimationDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -301,6 +308,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_BUNDLE_IDENTIFIER = ch.rudifa.AnimationDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
