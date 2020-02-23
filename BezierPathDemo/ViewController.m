@@ -16,9 +16,6 @@
     [super viewDidLoad];
 
     // Do any additional setup after loading the view.
-
-    //setup();
-
 }
 
 - (void)loadView {
@@ -42,16 +39,5 @@
 
     // Update the view, if already loaded.
 }
-
-/*
- * setup(  ) performs the functions that would normally be performed by
- * loading a nib file.
- */
-
-void setup(  )
-{
-
-}
-
 
 @end
