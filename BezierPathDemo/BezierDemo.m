@@ -6,45 +6,6 @@
 //  Copyright © 2020 Rudolf Farkas. All rights reserved.
 //
 
-// https://stackoverflow.com/questions/3162645/convert-a-quadratic-bezier-to-a-cubic-one
-
-/**
- extension NSBezierPath {
- public func addQuadCurve(to qp2: CGPoint, controlPoint qp1: CGPoint) {
- let qp0 = self.currentPoint
- self.curve(to: qp2,
- controlPoint1: qp0 + (2.0/3.0)*(qp1 - qp0),
- controlPoint2: qp2 + (2.0/3.0)*(qp1 - qp2))
- }
- }
-
- extension CGPoint {
- // Vector math
- public static func +(left: CGPoint, right: CGPoint) -> CGPoint {
- return CGPoint(x: left.x + right.x, y: left.y + right.y)
- }
- public static func -(left: CGPoint, right: CGPoint) -> CGPoint {
- return CGPoint(x: left.x - right.x, y: left.y - right.y)
- }
- public static func *(left: CGFloat, right: CGPoint) -> CGPoint {
- return CGPoint(x: left * right.x, y: left * right.y)
- }
- }
-
- CGPoint p1 = CGPointMake(3, 3);
- CGPoint p2 = CGPointMake(8, 8);
- CGPoint p3 = CGPointMake(p2.x-p1.x, p2.y-p1.y);
-
-
- - (void)moveToPoint:(NSPoint)point;
- - (void)lineToPoint:(NSPoint)point;
- - (void)curveToPoint:(NSPoint)endPoint
- controlPoint1:(NSPoint)controlPoint1
- controlPoint2:(NSPoint)controlPoint2;
- - (void)closePath;
-
- */
-
 #import <Cocoa/Cocoa.h>         // include the Cocoa Frameworks
 #import "BezierDemo.h"
 #import "NSBezierPath+QuadCurve.h"
