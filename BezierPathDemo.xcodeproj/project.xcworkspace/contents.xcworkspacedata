@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:AnimationDemo.xcodeproj">
+      location = "self:BezierPathDemo.xcodeproj">
    </FileRef>
 </Workspace>
