@@ -9,7 +9,7 @@
 #ifndef Tiny_h
 #define Tiny_h
 
-@interface DemoView : NSView    // interface of DemoView class
+@interface TinyView : NSView    // interface of DemoView class
 {                               // (subclass of NSView class)
 }
 - (void)drawRect:(NSRect)rect;  // instance method interface

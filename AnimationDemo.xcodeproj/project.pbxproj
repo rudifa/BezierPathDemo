@@ -13,6 +13,8 @@
 		9DEB45412402AE5300170788 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DEB453F2402AE5300170788 /* Main.storyboard */; };
 		9DEB45442402AE5300170788 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DEB45432402AE5300170788 /* main.m */; };
 		9DEB454C2402AF3200170788 /* Tiny.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DEB454B2402AF3200170788 /* Tiny.m */; };
+		9DEB45502402BA7300170788 /* BezierDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DEB454F2402BA7300170788 /* BezierDemo.m */; };
+		9DEB45522402DCC100170788 /* NSBezierPath+QuadCurve.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DEB45512402DCC100170788 /* NSBezierPath+QuadCurve.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,10 @@
 		9DEB45452402AE5300170788 /* AnimationDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AnimationDemo.entitlements; sourceTree = "<group>"; };
 		9DEB454B2402AF3200170788 /* Tiny.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tiny.m; sourceTree = "<group>"; };
 		9DEB454D2402B1A500170788 /* Tiny.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tiny.h; sourceTree = "<group>"; };
+		9DEB454E2402BA5400170788 /* BezierDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BezierDemo.h; sourceTree = "<group>"; };
+		9DEB454F2402BA7300170788 /* BezierDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BezierDemo.m; sourceTree = "<group>"; };
+		9DEB45512402DCC100170788 /* NSBezierPath+QuadCurve.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSBezierPath+QuadCurve.m"; sourceTree = "<group>"; };
+		9DEB45532402DCF600170788 /* NSBezierPath+QuadCurve.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSBezierPath+QuadCurve.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +72,10 @@
 				9DEB453B2402AE5200170788 /* ViewController.m */,
 				9DEB454D2402B1A500170788 /* Tiny.h */,
 				9DEB454B2402AF3200170788 /* Tiny.m */,
+				9DEB454E2402BA5400170788 /* BezierDemo.h */,
+				9DEB454F2402BA7300170788 /* BezierDemo.m */,
+				9DEB45532402DCF600170788 /* NSBezierPath+QuadCurve.h */,
+				9DEB45512402DCC100170788 /* NSBezierPath+QuadCurve.m */,
 				9DEB453D2402AE5300170788 /* Assets.xcassets */,
 				9DEB453F2402AE5300170788 /* Main.storyboard */,
 				9DEB45422402AE5300170788 /* Info.plist */,
@@ -145,8 +155,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DEB453C2402AE5200170788 /* ViewController.m in Sources */,
+				9DEB45502402BA7300170788 /* BezierDemo.m in Sources */,
 				9DEB454C2402AF3200170788 /* Tiny.m in Sources */,
 				9DEB45442402AE5300170788 /* main.m in Sources */,
+				9DEB45522402DCC100170788 /* NSBezierPath+QuadCurve.m in Sources */,
 				9DEB45392402AE5200170788 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

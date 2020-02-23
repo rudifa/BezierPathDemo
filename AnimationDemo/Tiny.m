@@ -13,6 +13,8 @@
  * IB is not used to create this application.
  */
 
+// from https://www.oreilly.com/library/view/building-cocoa-applications/0596002351/ch04.html
+
 #import <Cocoa/Cocoa.h>         // include the Cocoa Frameworks
 #import "Tiny.h"
 
@@ -26,7 +28,7 @@
 //- (void)drawRect:(NSRect)rect;  // instance method interface
 //@end
 
-@implementation DemoView        // implementation of DemoView class
+@implementation TinyView        // implementation of DemoView class
 
 #define X(t) (sin(t)+1) * width * 0.5     // macro for X(t)
 #define Y(t) (cos(t)+1) * height * 0.5    // macro for Y(t)

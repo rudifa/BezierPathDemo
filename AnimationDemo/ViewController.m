@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "Tiny.h"
+#import "BezierDemo.h"
 
 @implementation ViewController
 
@@ -21,16 +22,18 @@
 }
 
 - (void)loadView {
-    self.view = [[NSView alloc] initWithFrame: NSMakeRect(100.0, 350.0, 400.0, 400.0)];
+    self.view = [[NSView alloc] initWithFrame: NSMakeRect(100.0, 350.0, 800.0, 400.0)];
 
     [self.view setWantsLayer:YES];
     [self.view.layer setBackgroundColor:[[NSColor lightGrayColor] CGColor]];
     //self.view.autoresizingMask = NSViewAutoresizingFlexibleWidth | NSViewAutoresizingFlexibleHeight;
 
-    NSRect    graphicsRect = NSMakeRect(0.0, 0.0, 400.0, 400.0); // contains an origin, width, height
-    NSView   *myView = [[DemoView alloc] initWithFrame:graphicsRect];      // typed pointer to NSView object
+    NSRect    graphicsRect = NSMakeRect(0.0, 0.0, 400.0, 400.0);
+    NSView   *myView = [[TinyView alloc] initWithFrame:graphicsRect];
+    NSView   *myView2 = [[BezierView alloc] initWithFrame: NSMakeRect(400.0, 0.0, 400.0, 400.0)];
 
     [self.view addSubview: myView];
+    [self.view addSubview: myView2];
 }
 
 
